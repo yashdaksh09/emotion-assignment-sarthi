@@ -8,7 +8,7 @@ A simple full-stack web application that allows users to write a reflection (e.g
 
 ---
 
-## Prerequisites
+# Prerequisites
 
 Make sure the following tools are installed on your system:
 
@@ -18,34 +18,34 @@ Make sure the following tools are installed on your system:
 
 ---
 
-## Getting Started
+# Getting Started
 
-### Step 1: Clone the Project (Optional)
+# Step 1: Clone the Project (Optional)
 
 ```bash
 git clone https://github.com/yashdaksh09/emotion-assignment-sarthi.git
 cd emotion-assignment-sarthi
 
-## Backend Setup(FastAPI)
+```
+# Backend Setup(FastAPI)
 cd backend
 
-#Step 2: Install Dependencies
-
+# Step 2: Install Dependencies
 pip install fastapi uvicorn pydantic
 
 
- Step 4: Run the FastAPI Server
+# Step 4: Run the FastAPI Server
 
  uvicorn main:app --reload
 
 
-#Frontend Setup (React + TypeScript)
+# Frontend Setup (React + TypeScript)
 cd ../frontend
 
-#Step 2: Install Node Modules
+# Step 2: Install Node Modules
 npm install
 
-#Step 3: Start React App
+# Step 3: Start React App
 npm run dev       # if you're using Vite
-# OR
+#OR
 npm start         # if using Create React App (CRA)
